@@ -2,7 +2,7 @@
 
 This project involves the use of convulated neural network to classify images from the Intel Image Classification dataset. The project includes a Jupyter notebook for exploratory data analysis, a training script for model development, and a FastAPI inference service for real-time predictions. The project is designed to be production-ready and includes containerization with Docker and serverless inference with AWS Lambda. The repository also includes a deployment guide for AWS, dataset samples.
 
-## Repository Structure
+## Repository Contents
 Production-grade image classification system built on the Intel Image Classification dataset. This repository includes:
 - Deep learning model development using Tensorflow and Keras in a Jupyter Notebook and a training script
 - FastAPI inference service for real-time predictions
@@ -11,6 +11,8 @@ Production-grade image classification system built on the Intel Image Classifica
 - Serverless inference with AWS Lambda
 - Deployment guidance for AWS (ECR, ECS/Fargate, and Lambda)
 
+## Dataset
+The dataset is available in Kaggle and can be downloaded from [Intel Image Classification] https://www.kaggle.com/puneet6060/intel-image-classification with download command as `kagglehub.dataset_download("puneet6060/intel-image-classification")`. The dataset consists of 6 scene classes and 10,000 images per class. The dataset is split into training and testing sets, with 10,000 images per class in each set.
 
 ## Repository Structure
 
