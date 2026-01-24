@@ -49,6 +49,7 @@ Install dependencies using uv or pip:
   - python -m venv .venv
   - .venv\\Scripts\\activate (Windows)
   - pip install -e . or pip install -r requirements.txt (if you export one)
+  - The Virtual environment file was not uploaded as the file size is too large.
 
 
 ## 1) Model Development (Notebook and Script)
